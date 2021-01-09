@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         // definin do uma lista - gerar frase
         val frases= arrayListOf("A vida trará coisas boas se tiveres paciência", "Não dispense na ira o que lhe falta na razão", "ão importa o tamanho da montanha, ele não tapara o sol")
         btnInicial.setOnClickListener {
-            edtTextResultado.setText(frases.random())
+            edtTextResultado.text=frases.random()
         }
         //Obtendo um elemento aleatório
 
